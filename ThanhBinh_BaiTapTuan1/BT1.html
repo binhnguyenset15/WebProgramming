@@ -14,10 +14,33 @@
 		<em>thẻ em</em><br/>			<!-- in nghiên nhấn mạnh -->
 		<pre>thẻ pre</pre><br/>			<!-- văn bãn có font được định sẵn-->
 
-		<ol type="1"> 
-			<li>Phần tử 1</li>
-			<li>Phần tử 2</li>
-			<li>Phần tử 3</li>
+		<ol type="i">				<!--danh sách có tuần tự dạng số la mã-->
+			<li> List Item 1</li>
+				<ol type="a">		<!--danh sách có tuần tự dạng abcd...-->
+					<li>Nested Item 1.1</li>
+					<li>Nested Item 1.2</li>
+				</ol>
+			<li> List Item 2</li>
+				<ol type ="1">		<!--danh sách có tuần tự dạng số nguyên-->
+					<li>Nested Item 2.1</li>
+					<li>Nested Item 2.3</li>
+						<ul type="circle">		<!--danh sách không tuần tự dạng hình tròn-->
+							<li>Nested Item 2.2.1</li>
+							<li>Nested Item 2.2.2</li>
+								<ul type ="square">	<!--danh sách không tuần tự dạng hình vuông-->
+									<li>Nested Item 2.2.2.1</li>
+									<li>Nested Item 2.2.2.2</li>
+								</ul>
+							<li>Nested Item 2.2.3</li>
+						</ul>
+					<li>Nested Item 2.3</li>
+				</ol>
+			<li> List Item 3</li>
+			<ul type ="disc">		<!--danh sách không tuần tự dạng hình cục tròn-->
+				<li>Nested Item 3.1</li>
+				<li>Nested Item 3.1</li>
+				<li>Nested Item 3.1</li>
+			</ul>
 		</ol>
 	</body>
 </html>
