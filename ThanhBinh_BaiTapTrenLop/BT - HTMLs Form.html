@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test Form</title>
+	<meta charset="utf-8">
+	<style>
+		input{
+			margin-bottom: 10px;
+			margin-left: 18px;
+		}
+		textarea{
+			margin-bottom: 10px;
+			margin-left: 5px;
+		}
+		input[type="radio"]{
+			margin: 0px 8px 25px 10px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<b>Form nhập dữ liệu</b>
+		<form name="testForm" action="https://vnexpress.net">
+			<label for="tieuDe">Tiêu Đề </label>
+			<input type="text" name="tieuDe"><br>
+			<label for="noiDung">Nội Dung </label>
+			<textarea name="noiDung"></textarea><br>
+			<label for="radio">Giới tính</label>
+			<input type="radio" name="gioiTinh" value="1">Nam
+			<input type="radio" name="gioiTinh" value="2">Nữ
+			<input type="radio" name="gioiTinh" value="3">Bê Đê<br>
+			<label for="chuyenMuc">Chuyên Mục </label>
+			<select name="chuyenMuc">
+				  <option value="1" selected="selected">Tin Tức</option>
+				  <option value="2">Thể Thao</option>
+				  <option value="3">Chính Tri</option>
+				  <option value="3">Văn Hóa</option>
+			</select><br>
+			<label for="soThich">Sở Thích</label><br>
+			<input type="checkbox" name="soThich" value="Nghe nhạc" /> Nghe Nhạc <br>
+			<input type="checkbox" name="soThich" value="Nghe nhạc" /> Nghe Nhạc <br>
+			<input type="checkbox" name="soThich" value="Nghe nhạc" /> Nghe Nhạc <br>
+			<label for="email">Email</label>
+			<input type="text" name="email"><br>
+			<input type="reset" name="resetBtn"
+  			value="Reset" />
+  			<input type="submit" value="Submit" />
+		</form>
+	</div>
+</body>
+</html>
