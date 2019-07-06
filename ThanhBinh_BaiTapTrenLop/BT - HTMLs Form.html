@@ -13,39 +13,51 @@
 			margin-left: 5px;
 		}
 		input[type="radio"]{
-			margin: 0px 8px 25px 10px;
+			margin: 10px 10px 10px 10px;
+		}
+		fieldset{
+			width: 300px;
+			margin-top: 10px;
+			margin-bottom: 10px;
 		}
 	</style>
 </head>
 <body>
 	<div>
 		<b>Form nhập dữ liệu</b>
-		<form name="testForm" action="https://vnexpress.net">
+		<form name="testForm" method="get" action="https://vnexpress.net">
 			<label for="tieuDe">Tiêu Đề </label>
-			<input type="text" name="tieuDe"><br>
+				<input type="text" name="tieuDe" id="tieuDe" required ><br>
 			<label for="noiDung">Nội Dung </label>
-			<textarea name="noiDung"></textarea><br>
+				<textarea name="noiDung" id="noiDung" required></textarea><br>
 			<label for="radio">Giới tính</label>
-			<input type="radio" name="gioiTinh" value="1">Nam
-			<input type="radio" name="gioiTinh" value="2">Nữ
-			<input type="radio" name="gioiTinh" value="3">Bê Đê<br>
+				<input type="radio" name="gioiTinh" value="1">Nam
+				<input type="radio" name="gioiTinh" value="2" checked>Nữ
+				<input type="radio" name="gioiTinh" value="3">Bê Đê<br>
 			<label for="chuyenMuc">Chuyên Mục </label>
-			<select name="chuyenMuc">
-				  <option value="1" selected="selected">Tin Tức</option>
-				  <option value="2">Thể Thao</option>
-				  <option value="3">Chính Tri</option>
-				  <option value="3">Văn Hóa</option>
+			<select name="chuyenMuc" style="margin-left: 10px; width: 200px">
+				<option value="1" >Tin Tức</option>
+				<option value="2" selected>Thể Thao</option>
+				<option value="3">Chính Tri</option>
+				<option value="3">Văn Hóa</option>
 			</select><br>
-			<label for="soThich">Sở Thích</label><br>
-			<input type="checkbox" name="soThich" value="Nghe nhạc" /> Nghe Nhạc <br>
-			<input type="checkbox" name="soThich" value="Nghe nhạc" /> Nghe Nhạc <br>
-			<input type="checkbox" name="soThich" value="Nghe nhạc" /> Nghe Nhạc <br>
+			<fieldset style="width: 300px">
+				<legend>Sở Thích</legend>
+				<input type="checkbox" name="soThich" value="Nghe nhạc" /> Nghe Nhạc <br>
+				<input type="checkbox" name="soThich" value="Chơi Game" /> Chơi Game <br>
+				<input type="checkbox" name="soThich" value="Ăn Ngủ" /> Ăn Ngủ
+			</fieldset>
+			<input type="hidden" name="Name" value="NguyenThanhBinh">
 			<label for="email">Email</label>
-			<input type="text" name="email"><br>
+			<input type="email" name="email" id="email"><br>
 			<input type="reset" name="resetBtn"
   			value="Reset" />
   			<input type="submit" value="Submit" />
 		</form>
+		<hr style="width: 600px">
+		<div>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/OSgT1Kve3dQ" frameborder="0" allow="accelerometer; picture-in-picture" allowfullscreen></iframe>
+		</div>
 	</div>
 </body>
 </html>
