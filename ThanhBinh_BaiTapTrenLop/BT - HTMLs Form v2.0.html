@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test Form</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<div>
+		<table>
+		<thead>
+			<tr>
+			<th colspan="2">Form nhập dữ liệu</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+			<td>Tiêu đề</td>
+				<td><input id="tieuDe" name="tieuDe" required="" type="text" /></td>
+			</tr>
+			<tr>
+				<td>Nội Dung</td>
+				<td><textarea style="width: 167px;" name="noiDung" id="noiDung" required></textarea><br></td>
+			</tr>
+			<tr>
+				<td>Giới Tính</td>
+				<td><input type="radio" name="gioiTinh" value="1">Nam
+					<input type="radio" name="gioiTinh" value="2" checked>Nữ
+					<input type="radio" name="gioiTinh" value="3">Bê Đê</td>
+			</tr>
+			<tr>
+				<td>Chuyên Mục</td>
+				<td><select name="chuyenMuc" style="width: 172px;height: 22px;">
+					<option value="1" >Tin Tức</option>
+					<option value="2" selected>Thể Thao</option>
+					<option value="3">Chính Tri</option>
+					<option value="3">Văn Hóa</option>
+					</select></td>
+			</tr>
+			<tr>
+				<td>Sở Thích</td>
+				<td><fieldset style="width: 143px;">
+					<legend>Chọn nhiều sở thích</legend>
+					<input type="checkbox" name="soThich" value="Nghe nhạc" /> Nghe Nhạc <br>
+					<input type="checkbox" name="soThich" value="Chơi Game" /> Chơi Game <br>
+					<input type="checkbox" name="soThich" value="Ăn Ngủ" /> Ăn Ngủ
+				</fieldset>
+				</td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td><input type="email" name="email" id="email"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="reset" name="resetBtn" value="Reset" />
+				  				<input type="submit" value="Submit" />
+			  	</td>
+			</tr>
+		</tbody>
+</table>
+			<input type="hidden" name="Name" value="NguyenThanhBinh">
+		</form>
+		<hr style="width: 600px;margin-top: 10px;">
+		<div>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/OSgT1Kve3dQ" frameborder="0" allow="accelerometer; picture-in-picture" allowfullscreen></iframe>
+		</div>
+	</div>
+</body>
+</html>
