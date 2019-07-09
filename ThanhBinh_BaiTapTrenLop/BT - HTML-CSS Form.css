@@ -1,0 +1,13 @@
+body > div > div:nth-child(1) {
+	background-color: skyblue
+}
+body > div > div:nth-child(3){
+	background-color: #ff99ff
+}
+body > div > div:nth-child(1) > form > table > thead > tr > th{
+	color: red;
+}
+body > div > div:nth-child(1) > form > table > tbody > tr > td:nth-child(1)
+{
+	color: blue;
+}
