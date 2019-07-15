@@ -11,3 +11,9 @@ body > div > div:nth-child(1) > form > table > tbody > tr > td:nth-child(1)
 {
 	color: blue;
 }
+input[name=email]{
+    height: 50px;
+}
+input[type=submit]:hover{
+    color: #cc0044
+}
