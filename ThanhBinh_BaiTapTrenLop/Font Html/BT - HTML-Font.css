@@ -1,0 +1,38 @@
+*{margin: 0}
+li{
+	font-weight: bold;
+	font-size: 30px;
+}
+p:nth-child(3){
+	font-size: 20px
+}
+p:nth-child(5){
+	font-family: "Verdana", Geneva, sans-serif;
+}
+p:nth-child(6){
+	font-family: 'Roboto', sans-serif;
+}
+p:nth-child(8){
+	font-weight: normal;
+}
+p:nth-child(9){
+	font-weight: bold;
+}
+p:nth-child(11){
+	font-style: normal;
+}
+p:nth-child(12){
+	font-style: italic;
+}
+p:nth-child(13){
+	text-decoration: none;
+}
+p:nth-child(14){
+	text-decoration: underline;
+}
+p:nth-child(15){
+	text-decoration: line-through;
+}
+p:nth-child(16){
+	color: pink
+}
