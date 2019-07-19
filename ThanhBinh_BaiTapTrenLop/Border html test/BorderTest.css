@@ -16,3 +16,7 @@ p{
 	border-right: 10px double blue;
 	border-bottom:10px groove black; 
 }
+.shadow{
+	box-shadow: 10px 10px 5px #888
+}
+
