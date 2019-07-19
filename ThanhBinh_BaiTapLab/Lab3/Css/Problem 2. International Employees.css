@@ -6,5 +6,5 @@ thead{
 	color: #ffffff;
 }
 tr:nth-child(2n+2){
-  background-color: rgb(255, 255, 215);
+  background-color: #cce6ff;
 }
