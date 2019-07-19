@@ -1,0 +1,9 @@
+*{
+	background-color: #ecb3ff
+}
+body > header > h1,ul {
+	text-align: center;
+}
+li{
+	list-style-type: none
+}

@@ -11,6 +11,7 @@ p{
 	border: 10px dotted blue;
 	border-radius: 50%;
 	background-color: skyblue;
+	opacity: 0.5;
 }
 .other{
 	color: white;
@@ -20,6 +21,8 @@ p{
 	border-bottom:10px groove black;
 	border-radius: 5px 300px 50% 20%;
 	background-image: url("https://www.universetoday.com/wp-content/uploads/2009/12/m81-print-2000x1200.jpg"); 
+	width: 1000px;
+	height: 300px;
 }
 .shadow{
 	box-shadow: 10px 10px 5px #888
