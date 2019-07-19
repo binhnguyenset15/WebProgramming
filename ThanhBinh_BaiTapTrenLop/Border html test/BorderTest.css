@@ -8,18 +8,18 @@ p{
 	border: 10px none;
 }
 .dot{
-	border: 10px dotted skyblue;
+	border: 10px dotted blue;
 	border-radius: 50%;
+	background-color: skyblue;
 }
 .other{
+	color: white;
 	border-top: 10px dashed red;
 	border-left: 10px solid green;
 	border-right: 10px double blue;
 	border-bottom:10px groove black;
-	border-top-left-radius: 5px; 
-	border-top-right-radius: 300px; 
-	border-bottom-left-radius: 50%;
-	border-bottom-right-radius: 20%; 
+	border-radius: 5px 300px 50% 20%;
+	background-image: url("https://www.universetoday.com/wp-content/uploads/2009/12/m81-print-2000x1200.jpg"); 
 }
 .shadow{
 	box-shadow: 10px 10px 5px #888

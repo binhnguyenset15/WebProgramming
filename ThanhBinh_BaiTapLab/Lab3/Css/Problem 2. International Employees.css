@@ -1,0 +1,10 @@
+*{
+	font-family: Arial;
+}
+thead{
+	background-color: #52be52;
+	color: #ffffff;
+}
+tr:nth-child(2n+2){
+  background-color: rgb(255, 255, 215);
+}
