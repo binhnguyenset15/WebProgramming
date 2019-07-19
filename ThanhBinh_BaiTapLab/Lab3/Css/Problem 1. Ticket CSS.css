@@ -1,0 +1,26 @@
+div{
+	width: 400px;
+	background-color: #827f7f;
+}
+tr > td:nth-child(1){
+	color: white;
+}
+.dot{
+  height: 10px;
+  width: 10px;
+  background-color: #3caf24;
+  border-radius: 50%;
+  display: inline-block;
+}
+.redText{
+  color: #b30000;
+}
+.yellowText{
+	color: #fffdb5
+}
+.greyText{
+	color: #c1c1c1
+}
+.orangeText{
+  color: #cc8b00
+}

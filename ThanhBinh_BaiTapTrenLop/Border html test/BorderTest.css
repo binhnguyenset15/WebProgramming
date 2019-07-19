@@ -1,12 +1,18 @@
+*{
+	margin: 10px; padding: 10px
+}
+p{
+	text-align: center;
+}
 .none{
-	border: none;
+	border: 10px none;
 }
 .dot{
-	border: dotted red;
+	border: 10px dotted skyblue;
 }
 .other{
-	border-top: 2px dashed red;
-	border-left: 2px solid green;
-	border-right: 2px double blue;
-	border-bottom:2px groove black; 
+	border-top: 10px dashed red;
+	border-left: 10px solid green;
+	border-right: 10px double blue;
+	border-bottom:10px groove black; 
 }
