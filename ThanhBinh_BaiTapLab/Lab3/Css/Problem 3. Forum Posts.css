@@ -1,9 +1,26 @@
 *{
-	background-color: #ecb3ff
+	background-color: #ecb3ff;
+	font-family: Arial;
 }
 body > header > h1,ul {
+	font-size: 40px;
+	color: white;
 	text-align: center;
+	margin: 0;padding: 0;
 }
 li{
-	list-style-type: none
+	list-style-type: none;
+}
+li:hover{
+  color: #b6000d;
+}
+li > a{
+	font-size: 25px;
+	font-weight: bold;
+	color: white
+}
+h1{
+	color: white;
+	font-weight: bold;
+	font-size: 30px
 }
