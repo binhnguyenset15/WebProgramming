@@ -9,6 +9,7 @@ p{
 }
 .dot{
 	border: 10px dotted skyblue;
+	border-radius: 50%;
 }
 .other{
 	border-top: 10px dashed red;
