@@ -1,0 +1,12 @@
+.none{
+	border: none;
+}
+.dot{
+	border: dotted red;
+}
+.other{
+	border-top: 2px dashed red;
+	border-left: 2px solid green;
+	border-right: 2px double blue;
+	border-bottom:2px groove black; 
+}
