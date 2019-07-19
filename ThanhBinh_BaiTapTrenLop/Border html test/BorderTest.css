@@ -15,7 +15,11 @@ p{
 	border-top: 10px dashed red;
 	border-left: 10px solid green;
 	border-right: 10px double blue;
-	border-bottom:10px groove black; 
+	border-bottom:10px groove black;
+	border-top-left-radius: 5px; 
+	border-top-right-radius: 300px; 
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 20%; 
 }
 .shadow{
 	box-shadow: 10px 10px 5px #888
