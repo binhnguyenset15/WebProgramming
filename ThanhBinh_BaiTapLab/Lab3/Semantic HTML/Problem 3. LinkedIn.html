@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LinkedIn</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+        input{
+            width: 200px
+        }
+        input[name="email"]{
+            margin-left: 23px
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2><a href="#">LinkedIn</h2>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">What is LinkedIn?</a></li>
+                <li><a href="#">Join Today</a></li>
+                <li>
+                    <fieldset>
+                        <legend>Sign In</legend>
+                        <form name="signIn" method="get" action="">
+                            <ul>
+                                <li>Email:<input type="email" name="email" placeholder="binh.nguyen.set15@eiu.edu.vn" /></li>
+                                <li>Password:<input type="password" name="password" value="123456" /></li>
+                                <li><button type="submit" name="signInBtn" disabled>Sign In</button>
+                                </li>
+                            </ul>
+                        </form>
+                    </fieldset>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <h3>Over 175 million professionals use LinkedIn to exchange information, ideas and oppoturnities</h3>
+        <ul>
+            <li>Stay infomred about your contacts and industry</li>
+            <li>Find the people & knowledge you need to archive your goals</li>
+            <li>Control your professtional identity online</li>
+        </ul>
+        <section>
+            <h4>Join LinkedIn Today</h4>
+            <fieldset>
+                <legend>Sign Up</legend>
+                <form name="signUp" method="get" action="">
+                    <ul>
+                        <li>
+                            First Name:<br>
+                            <input type="text" name="firstNameSU"/>
+                        </li>
+                        <li>
+                            Last Name:<br>
+                            <input type="text" name="lastNameSU"/>
+                        </li>
+                        <li>
+                            Email:<br>
+                            <input type="text" name="emailSU" />
+                        </li>
+                        <li>
+                            Password:<br />
+                            <input type="text" name="passwordSU" />
+                            <br>
+                            6 or mor characters
+                        </li>
+                    </ul>
+                    <button type="submit" name="join">Join Now</button>
+                    <p>Already on LinkedIn? <a href="#">Sign in</a></p>
+                </form>
+            </fieldset>
+        </section>
+        <section>
+            <h5>Search for someone by name:</h5>
+            <form name="search" method="get" action="">
+                <ul>
+                    <li>
+                        First Name:
+                        <input type="text" name="firstNameSearch"/>
+                     </li>
+                    <li>
+                        Last Name:
+                        <input type="text" name="lastNameSearch" />
+                    </li>
+                </ul>
+                <button type="submit" name="searchBtn">Go</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
