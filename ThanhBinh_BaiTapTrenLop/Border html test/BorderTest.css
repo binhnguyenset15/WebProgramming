@@ -12,6 +12,7 @@ p{
 	border-radius: 50%;
 	background-color: skyblue;
 	opacity: 0.5;
+	padding: 10px 20px 30px 40px;
 }
 .other{
 	color: white;
@@ -21,7 +22,7 @@ p{
 	border-bottom:10px groove black;
 	border-radius: 5px 300px 50% 20%;
 	background-image: url("https://www.universetoday.com/wp-content/uploads/2009/12/m81-print-2000x1200.jpg"); 
-	width: 1000px;
+	width: 400px;
 	height: 300px;
 }
 .shadow{
