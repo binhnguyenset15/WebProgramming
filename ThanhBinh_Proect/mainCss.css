@@ -1,5 +1,8 @@
 body {
-    background-color: #ccc;
+    background-color: #f0eded;
+}
+.wrap {
+    min-width: 1200px;
 }
 .container {
     width: 1200px;
@@ -7,6 +10,35 @@ body {
     position: relative;
     box-sizing: border-box;
 }
-.quangCao1{
+.QCTrai {
+    width: 795px;
+    float: left;
+    height: 365px;
+    overflow: hidden;
+    position: relative;
+}
+.item{
     min-height: 365px;
+}
+.QCPhai {
+    width: 400px;
+    float: right;
+    height: 450px;
+    overflow: hidden
+}
+.video{
+    width:100%;
+}
+.hot_news {
+    margin: 0;
+    border-bottom: dotted 1px #ccc;
+    overflow: hidden;
+    height: 54px;
+    padding: 10px 0;
+}
+.hot_news img {
+    width: 80px;
+    float: left;
+    margin-right: 7px;
+    max-height: 54px;
 }

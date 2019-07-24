@@ -55,6 +55,7 @@ li{
 	font-size: 11px;
 }
 .top-right{
+    margin-left: 10%;
 	float: right;
 	margin-top: 12px;
 	margin-left: 45px;
@@ -132,12 +133,12 @@ li{
 	width: 100%;
 	height: 55px;
 	background-color: white;
+    display: block;
 }
 .nav a{
 	display: block;
 }
 .nav-item{
-	width: 1200px;
 	margin: auto;
     position: relative;
     box-sizing: border-box;
@@ -163,7 +164,6 @@ li{
     float: left;
     padding: 0 8px;
     text-align: center;
-    z-index: 99;
 }
 .nav-item > ul > li > a{
 	font-weight: bold;
@@ -186,12 +186,13 @@ li{
 	}
 	.nav-item > ul > li:hover > .sub_nav{
 	display: block;
+    z-index:99;
 	}
 .sub_nav .box_cate{
 	padding: 10px;
     float: left;
     line-height: 24px;
-    width: 161px;
+    width: 15%;
 }
 .sub1{
 	font-weight: bold;
