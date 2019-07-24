@@ -1,0 +1,128 @@
+*{
+	margin: 0; 
+	padding: 0;
+	font-family: 'Roboto',arial,Helvetica,sans-serif;
+    font-size: 14px;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style-type: none;
+}
+.icons_2019 {
+    display: inline-block;
+    background: url("https://www.anphatpc.com.vn/template/2019/images/sprite_2019.png?v=2.2") no-repeat;
+    vertical-align: middle;
+}
+.icons_2019.tragop{height:40px;width:45px;background-position:-77px 0px;}
+.icons_2019.tintuc{height:40px;width:45px;background-position:-161px 0px;}
+.icons_2019.xaydungpc{height:40px;width:50px;background-position:-249px 0px;}
+.icons_2019.flashsale{height:40px;width:45px;background-position:-340px 0px;}
+.icons_2019.icon_tuvan{width:30px;height:30px;background-position:-8px -9px;}
+.icons_2019.icon_hangchinhhang{width:30px;height:30px;background-position:-8px -53px;}
+.icons_2019.icon_doitramienphi{width:30px;height:30px;background-position:-4px -103px;}
+.icons_2019.icon_mienphivanchuyen{width:30px;height:30px;background-position:-8px -157px;}
+.icons_2019.icon_inhoadondientu{width:30px;height:30px;background-position:-4px -207px;}
+.icons_2019.icon_tracuubaohanh{width:32px;height:32px;background-position:-2px -255px;}
+
+
+.top{
+	display: flex;
+	width: 100%;
+	height: 40px;
+	background-color: #f2f2f2;
+	position: relative;
+}
+.top a{
+	text-transform: uppercase;
+	color: #555;
+	font-weight: bold;
+}
+.top-left > ul{
+	padding-inline-start: 100px;
+}
+.top-left > ul > li{
+	float: left;
+	white-space: nowrap;
+	margin-right: 20px;
+	margin-top: 5px;
+}
+.top-left > ul > li a{
+	font-size: 11px;
+}
+.top-right{
+	float: right;
+	margin-top: 12px;
+	margin-left: 45px;
+}
+.top-right a{
+	font-size: 12px;
+}
+
+.header{
+	display: flex;
+	width: 100%;
+	height: 110px;
+	background-color: #ce0707;
+	position: relative;
+}
+.logo{
+	vertical-align: middle;
+	padding: 15px;
+	margin-left: 80px;
+	float: left;
+}
+.search{
+	float: left;
+	width: 40%;
+	height: 42px;
+	border: none;
+	border-radius: 5px;
+	background-color: white;
+	box-sizing: border-box;
+	margin-top: 35px;
+}
+.selectSearch{
+	height: 39px;
+	border: none;
+	padding-left: 10px;
+	margin-left: 5px;
+	align-items: center;
+	-webkit-appearance: none;
+	outline: none;
+}
+.searchItem{
+	width: 60%;
+	height: 42px;
+	border: none;
+	outline: none;
+}
+
+.submitBtn{
+	height: 42px;
+    width: 45px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+}
+.header-right{
+	float: right;
+	height: 60px;
+	margin-top: 25px;
+	margin-left: 50px;
+}
+.header-right a{
+	display: block;
+    float: left;
+    margin-left: 25px;
+}
+.header-right a > span{
+	color: white;
+	font-weight: bold;
+	display: block;
+}
+
