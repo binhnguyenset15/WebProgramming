@@ -1,0 +1,12 @@
+body {
+    background-color: #ccc;
+}
+.container {
+    width: 1200px;
+    margin: auto;
+    position: relative;
+    box-sizing: border-box;
+}
+.quangCao1{
+    min-height: 365px;
+}
