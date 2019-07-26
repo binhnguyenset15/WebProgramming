@@ -10,6 +10,19 @@ body {
     position: relative;
     box-sizing: border-box;
 }
+.owl-2019 .owl-nav div{
+    position: absolute;
+    top: 50%;
+    z-index: 99999;
+    margin-top: -28px;
+    opacity: 0.6;
+}
+.owl-2019 .owl-nav .owl-prev {
+    left: 0;
+}
+.owl-2019 .owl-nav .owl-next {
+    right: 0;
+}
 .QCTrai {
     width: 795px;
     float: left;
@@ -140,6 +153,7 @@ ul#sync2 li span{
     font-weight: normal;
 }
 .product-category{
+    width: 100%;
     float: left;
     margin-bottom: 20px;
 }
@@ -191,3 +205,4 @@ ul#sync2 li span{
     display: block;
     height: 14px;
 }
+

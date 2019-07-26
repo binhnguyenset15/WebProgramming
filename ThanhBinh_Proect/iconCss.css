@@ -3,6 +3,8 @@
     background: url("https://www.anphatpc.com.vn/template/2019/images/sprite_2019.png?v=2.2") no-repeat;
     vertical-align: middle;
 }
+.icons_2019.icon-owl-prev{width:42px;height:60px;background-position:-428px -5px;}
+.icons_2019.icon-owl-next{width:42px;height:60px;background-position:-488px -5px;}
 .icons_2019.tragop{height:40px;width:45px;background-position:-77px 0px;}
 .icons_2019.tintuc{height:40px;width:45px;background-position:-161px 0px;}
 .icons_2019.xaydungpc{height:40px;width:50px;background-position:-249px 0px;}
