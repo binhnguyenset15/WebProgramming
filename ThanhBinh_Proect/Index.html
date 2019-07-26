@@ -5,58 +5,65 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="headerCss.css">
     <link rel="stylesheet" type="text/css" href="mainCss.css">
+    <link rel="stylesheet" type="text/css" href="iconCss.css">
     <script type="text/javascript" src="Js.js"></script>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/3e29693341.js"></script>
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.min.css">
+    <script src="OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
+    <script src="OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.js"></script>
 </head>
 <body>
     <div class="wrap">
         <div class="top">
-            <div class="top-left">
-                <ul>
-                    <li id="support_top"><i class="icons_2019 icon_tuvan"></i><a href="#">Tư vấn bán hàng</a></li>
-                    <li><i class="icons_2019 icon_hangchinhhang"></i><a href="#">Hàng chính hãng</a></li>
-                    <li><i class="icons_2019 icon_doitramienphi"></i><a href="#">Đổi trả miễn phí</a></li>
-                    <li><i class="icons_2019 icon_mienphivanchuyen"></i><a href="#">Miễn phí vận chuyển</a></li>
-                    <li><i class="icons_2019 icon_inhoadondientu"></i><a href="#">In hóa đơn điện tử</a></li>
-                    <li><i class="icons_2019 icon_tracuubaohanh"></i><a href="#">Tra cứu bảo hành</a></li>
-                </ul>
-            </div>
-            <div class="top-right">
-                <a href="#">Đăng ký</a>&nbsp;|&nbsp;<a href="#">Đăng nhập</a>
-            </div>
+            <div class="container"> 
+                <div class="top-left">
+                    <ul>
+                        <li id="support_top"><i class="icons_2019 icon_tuvan"></i><a href="#">Tư vấn bán hàng</a></li>
+                        <li><i class="icons_2019 icon_hangchinhhang"></i><a href="#">Hàng chính hãng</a></li>
+                        <li><i class="icons_2019 icon_doitramienphi"></i><a href="#">Đổi trả miễn phí</a></li>
+                        <li><i class="icons_2019 icon_mienphivanchuyen"></i><a href="#">Miễn phí vận chuyển</a></li>
+                        <li><i class="icons_2019 icon_inhoadondientu"></i><a href="#">In hóa đơn điện tử</a></li>
+                        <li><i class="icons_2019 icon_tracuubaohanh"></i><a href="#">Tra cứu bảo hành</a></li>
+                    </ul>
+                </div>
+                <div class="top-right">
+                    <a href="#">Đăng ký</a>&nbsp;|&nbsp;<a href="#">Đăng nhập</a>
+                </div>
+            </div>    
         </div>
         <header>
             <div class="header">
-                <div class="logo">
-                    <a href=""><img src="images/anphatpc.png" alt="logo"></a>
-                </div>
-                <div class="search">
-                    <form name="searchForm" method="get" action="https://www.anphatpc.com.vn/">
-                        <select class="selectSearch">
-                            <option value="1">Tất cả danh mục</option>
-                            <option value="2">Laptop &amp; LT Gaming</option>
-                            <option value="3">Máy tính - Máy chủ</option>
-                            <option value="4">Linh kiện máy tính</option>
-                            <option value="5">Màn hình Máy Tính</option>
-                            <option value="6">TB lưu trữ, nghe nhìn</option>
-                            <option value="7">Gaming Gear</option>
-                            <option value="8">GameNet</option>
-                            <option value="9">TB văn phòng</option>
-                            <option value="0">Thiết bị mạng</option>
-                            <option value="11">Camera</option>
-                            <option value="12">Cooling - Tản nhiệt</option>
-                        </select>
-                        <i class="fa fa-caret-down"></i>
-                        <input class="searchItem" type="text" name="productName" placeholder="Bạn Tìm gì...">
-                        <button class="submitBtn" type="submit"><img src="images/search Icon.png" width="30px" height="auto"></button>
-                    </form>
-                </div>
-                <div class="header-right">
-                    <a href="/mua-tra-gop.html"><i class="icons_2019 tragop"></i><span>Trả góp 0%</span></a>
-                    <a href="/tin-tuc"><i class="icons_2019 tintuc"></i><span>Tin tức</span></a>
-                    <a href="/buildpc"><i class="icons_2019 xaydungpc"></i><span>Xây dựng PC</span></a>
-                    <a href="/deal"><i class="icons_2019 flashsale"></i><span>Flash sale</span></a>
+                <div class="container">
+                    <div class="logo">
+                        <a href=""><img src="images/anphatpc.png" alt="logo"></a>
+                    </div>
+                    <div class="search">
+                        <form name="searchForm" method="get" action="https://www.anphatpc.com.vn/">
+                            <select class="selectSearch">
+                                <option value="1">Tất cả danh mục</option>
+                                <option value="2">Laptop &amp; LT Gaming</option>
+                                <option value="3">Máy tính - Máy chủ</option>
+                                <option value="4">Linh kiện máy tính</option>
+                                <option value="5">Màn hình Máy Tính</option>
+                                <option value="6">TB lưu trữ, nghe nhìn</option>
+                                <option value="7">Gaming Gear</option>
+                                <option value="8">GameNet</option>
+                                <option value="9">TB văn phòng</option>
+                                <option value="0">Thiết bị mạng</option>
+                                <option value="11">Camera</option>
+                                <option value="12">Cooling - Tản nhiệt</option>
+                            </select>
+                            <i class="fa fa-caret-down"></i>
+                            <input class="searchItem" type="text" name="productName" placeholder="Bạn Tìm gì...">
+                            <button class="submitBtn" type="submit"><img src="images/search Icon.png" width="30px" height="auto"></button>
+                        </form>
+                    </div>
+                    <div class="header-right">
+                        <a href="/mua-tra-gop.html"><i class="icons_2019 tragop"></i><span>Trả góp 0%</span></a>
+                        <a href="/tin-tuc"><i class="icons_2019 tintuc"></i><span>Tin tức</span></a>
+                        <a href="/buildpc"><i class="icons_2019 xaydungpc"></i><span>Xây dựng PC</span></a>
+                        <a href="/deal"><i class="icons_2019 flashsale"></i><span>Flash sale</span></a>
+                    </div>
                 </div>
             </div>
         </header>
@@ -863,30 +870,68 @@
             <div class="quangCao">
                 <div class="container">
                     <div class="QCTrai">
-                        <div class="sliderQuangCao">
-                            <div class="item">
-                                <a href="#">
-                                    <img border="0" src="mainImages/25_Apr317dc9b367bdd397ba15f2777a2b3d2c.jpg" width="795" alt="IVIDIA">
-                                </a>
+                        <div id="sync1" class="owl-carousel owl-loaded owl-drag"> 
+                            <div class="owl-stage-outer">
+                                <div class="owl-stage">
+                                    <div class="owl-item cloned" style="width: 796px;">
+                                        <div class="item">
+                                            <a href="" target="_blank" rel="nofollow">
+                                                <img border="0" src="mainImages/02_Maydf214d380102337bf2fc6529d360fc89.jpg" width="795" height="366" alt="Mua acer tặng vali">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item" style="width: 796px;">
+                                        <div class="item">
+                                            <a href="" target="_blank" rel="nofollow">
+                                                <img border="0" src="mainImages/05_Aprb305e8436c11adeb03647cf7c8d34848.jpg" width="795" height="366" alt="Giảm Sốc Đến 5 Triệu Cho Laptop Acer">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item cloned" style="width: 796px;">
+                                        <div class="item">
+                                            <a href="" target="_blank" rel="nofollow">
+                                                <img border="0" src="mainImages/02_Jul27182624e5ab004b1011f28b2e1a0c97.jpg" width="795" height="366" alt="Mua acer tặng vali">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item" style="width: 796px;">
+                                        <div class="item">
+                                            <a href="" target="_blank" rel="nofollow">
+                                                <img border="0" src="mainImages/02_Mayb44101ee9811b36f7ec76e75fcd8ac53.jpg" width="795" height="366" alt="Giảm Sốc Đến 5 Triệu Cho Laptop Acer">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div>
-
                         </div>
                     </div>
                     <div class="pointerQC">
-                        <div>
-
-                        </div>
-                        <div>
-
-                        </div>
-                        <div>
-
-                        </div>
-                        <div>
-
-                        </div>
+                        <ul class="menuQC" id="sync2" class="ul owl-carousel owl-loaded owl-drag">
+                            <div class="owl-stage-outer">
+                                <div class="owl-stage">
+                                    <div class="owl-item" style="width: 199px;">
+                                        <li class="item " rel="1">
+                                            <span>Test 1</span>
+                                        </li>
+                                    </div>
+                                    <div class="owl-item" style="width: 199px;">
+                                        <li class="item " rel="2">
+                                            <span>Test 2</span>
+                                        </li>
+                                    </div>
+                                    <div class="owl-item" style="width: 199px;">
+                                        <li class="item " rel="3">
+                                            <span>Test 3</span>
+                                        </li>
+                                    </div>
+                                    <div class="owl-item" style="width: 199px;">
+                                        <li class="item " rel="4">
+                                            <span>Test 4</span>
+                                        </li>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
                     </div>
                     <div class="QCPhai">
                         <div class="video">
@@ -902,10 +947,282 @@
                             <a href="#"><img src="mainImages/120_5010_1.jpg" /><b>Case máy tính chỉ 12 triệu mà chiến game gì cũng ...</b></a>
                         </div>
                     </div>
+                    <div class="space"></div>
+                    <div class="QCDuoi">
+                        <div class="banner">
+                            <a href=""><img border="0" src="mainImages/16_Aprea87f908c84bc7a6a97dbce914773437.jpg" width="300" height="150" alt=""></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="space"></div>
+            <div class="productPointer">
+                <div class="container">
+                    <div class="productTitle">
+                        <h2 class="h_title">Laptop & LT Gaming</h2>
+                        <div class="sub_cat_title">
+                            <a href="">Máy Tính Laptop</a>
+                            <a href="">Laptop theo nhu cầu</a>
+                            <a href="">Linh kiện MTXT</a>  
+                            <a href="">Phụ kiện MTXT</a>  
+                            <a href="">Máy tính bảng</a>  
+                        </div>
+                        <a href="" class="viewall">Xem tất cả</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+            	<div class="product-category">
+                    <div class="product-list">
+                        <div id="product-hot395" class="owl-carousel owl-2019 owl-loaded owl-drag">
+                        	<div class="owl-stage-outer">
+	                        	<div class="owl-stage" style="width: 2340px;">
+	                        		<div class="owl-item" style="width: 234px;">
+	                        			<div class="p-item">
+	                        				<div class="icons_2019 discount">99%</div>
+	                        				<i class="icons_2019 icon-new"></i>
+	                        				<a href="" class="p-image">
+	                        					<img src="mainImages/250_29456_msi_nb_gf63_photo_03.png">
+	                        					<i class="icons_2019 icon-offer"></i>
+	                        				</a>
+	                        				<p class="p-row">
+	                        					<span class="p-rate-2019">
+	                        						<i class="icons_2019 icon-p-rate icon-p-rate_0"></i>
+	                        					(0)
+	                        					</span>
+	                        					<span class="p-sku">Mã SP : NBMS0160</span>
+	                        				</p>
+	                        				<a href="" class="p-name">Laptop MSI GF63 8RCS-274VN</a>
+	                        				<span class="price">22.290.000 đ</span>
+	                        				<span class="old-price">23.690.000 đ</span>
+	                        				<span class="total-offer">1 khuyến mãi</span>
+	                        			</div>
+	                        		</div>
+	                        		<div class="owl-item" style="width: 234px;">
+	                        			<div class="p-item">
+	                        				<div class="icons_2019 discount">99%</div>
+	                        				<i class="icons_2019 icon-new"></i>
+	                        				<a href="" class="p-image">
+	                        					<img src="mainImages/250_29456_msi_nb_gf63_photo_03.png">
+	                        					<i class="icons_2019 icon-offer"></i>
+	                        				</a>
+	                        				<p class="p-row">
+	                        					<span class="p-rate-2019">
+	                        						<i class="icons_2019 icon-p-rate icon-p-rate_0"></i>
+	                        					(0)
+	                        					</span>
+	                        					<span class="p-sku">Mã SP : NBMS0160</span>
+	                        				</p>
+	                        				<a href="" class="p-name">Laptop MSI GF63 8RCS-274VN</a>
+	                        				<span class="price">22.290.000 đ</span>
+	                        				<span class="old-price">23.690.000 đ</span>
+	                        				<span class="total-offer">1 khuyến mãi</span>
+	                        			</div>
+	                        		</div>
+	                        		<div class="owl-item" style="width: 234px;">
+	                        			<div class="p-item">
+	                        				<div class="icons_2019 discount">99%</div>
+	                        				<i class="icons_2019 icon-new"></i>
+	                        				<a href="" class="p-image">
+	                        					<img src="mainImages/250_29456_msi_nb_gf63_photo_03.png">
+	                        					<i class="icons_2019 icon-offer"></i>
+	                        				</a>
+	                        				<p class="p-row">
+	                        					<span class="p-rate-2019">
+	                        						<i class="icons_2019 icon-p-rate icon-p-rate_0"></i>
+	                        					(0)
+	                        					</span>
+	                        					<span class="p-sku">Mã SP : NBMS0160</span>
+	                        				</p>
+	                        				<a href="" class="p-name">Laptop MSI GF63 8RCS-274VN</a>
+	                        				<span class="price">22.290.000 đ</span>
+	                        				<span class="old-price">23.690.000 đ</span>
+	                        				<span class="total-offer">1 khuyến mãi</span>
+	                        			</div>
+	                        		</div>
+	                        		<div class="owl-item" style="width: 234px;">
+	                        			<div class="p-item">
+	                        				<div class="icons_2019 discount">99%</div>
+	                        				<i class="icons_2019 icon-new"></i>
+	                        				<a href="" class="p-image">
+	                        					<img src="mainImages/250_29456_msi_nb_gf63_photo_03.png">
+	                        					<i class="icons_2019 icon-offer"></i>
+	                        				</a>
+	                        				<p class="p-row">
+	                        					<span class="p-rate-2019">
+	                        						<i class="icons_2019 icon-p-rate icon-p-rate_0"></i>
+	                        					(0)
+	                        					</span>
+	                        					<span class="p-sku">Mã SP : NBMS0160</span>
+	                        				</p>
+	                        				<a href="" class="p-name">Laptop MSI GF63 8RCS-274VN</a>
+	                        				<span class="price">22.290.000 đ</span>
+	                        				<span class="old-price">23.690.000 đ</span>
+	                        				<span class="total-offer">1 khuyến mãi</span>
+	                        			</div>
+	                        		</div>
+	                        		<div class="owl-item" style="width: 234px;">
+	                        			<div class="p-item">
+	                        				<div class="icons_2019 discount">99%</div>
+	                        				<i class="icons_2019 icon-new"></i>
+	                        				<a href="" class="p-image">
+	                        					<img src="mainImages/250_29456_msi_nb_gf63_photo_03.png">
+	                        					<i class="icons_2019 icon-offer"></i>
+	                        				</a>
+	                        				<p class="p-row">
+	                        					<span class="p-rate-2019">
+	                        						<i class="icons_2019 icon-p-rate icon-p-rate_0"></i>
+	                        					(0)
+	                        					</span>
+	                        					<span class="p-sku">Mã SP : NBMS0160</span>
+	                        				</p>
+	                        				<a href="" class="p-name">Laptop MSI GF63 8RCS-274VN</a>
+	                        				<span class="price">22.290.000 đ</span>
+	                        				<span class="old-price">23.690.000 đ</span>
+	                        				<span class="total-offer">1 khuyến mãi</span>
+	                        			</div>
+	                        		</div>
+	                        		<div class="owl-item" style="width: 234px;">
+	                        			<div class="p-item">
+	                        				<div class="icons_2019 discount">99%</div>
+	                        				<i class="icons_2019 icon-new"></i>
+	                        				<a href="" class="p-image">
+	                        					<img src="mainImages/250_29456_msi_nb_gf63_photo_03.png">
+	                        					<i class="icons_2019 icon-offer"></i>
+	                        				</a>
+	                        				<p class="p-row">
+	                        					<span class="p-rate-2019">
+	                        						<i class="icons_2019 icon-p-rate icon-p-rate_0"></i>
+	                        					(0)
+	                        					</span>
+	                        					<span class="p-sku">Mã SP : NBMS0160</span>
+	                        				</p>
+	                        				<a href="" class="p-name">Laptop MSI GF63 8RCS-274VN</a>
+	                        				<span class="price">22.290.000 đ</span>
+	                        				<span class="old-price">23.690.000 đ</span>
+	                        				<span class="total-offer">1 khuyến mãi</span>
+	                        			</div>
+	                        		</div>
+	                        		<div class="owl-item" style="width: 234px;">
+	                        			<div class="p-item">
+	                        				<div class="icons_2019 discount">99%</div>
+	                        				<i class="icons_2019 icon-new"></i>
+	                        				<a href="" class="p-image">
+	                        					<img src="mainImages/250_29456_msi_nb_gf63_photo_03.png">
+	                        					<i class="icons_2019 icon-offer"></i>
+	                        				</a>
+	                        				<p class="p-row">
+	                        					<span class="p-rate-2019">
+	                        						<i class="icons_2019 icon-p-rate icon-p-rate_0"></i>
+	                        					(0)
+	                        					</span>
+	                        					<span class="p-sku">Mã SP : NBMS0160</span>
+	                        				</p>
+	                        				<a href="" class="p-name">Laptop MSI GF63 8RCS-274VN</a>
+	                        				<span class="price">22.290.000 đ</span>
+	                        				<span class="old-price">23.690.000 đ</span>
+	                        				<span class="total-offer">1 khuyến mãi</span>
+	                        			</div>
+	                        		</div>
+	                        	</div>
+                        	</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
         <footer></footer>
     </div>
+</div>
+<script>
+      $(document).ready(function() {
+      
+        var sync1 = $("#sync1");
+        var sync2 = $("#sync2");
+        var slidesPerPage = 4; //globaly define number of elements per page
+        var syncedSecondary = true;
+      
+        sync1.owlCarousel({
+         	items : 1,
+          	slideSpeed : 1000,
+          	nav: true,
+            center: false,
+         	autoplay: true,
+            autoplayHoverPause: true,
+          	dots: false,
+          	loop: true,
+            lazyLoad:true,
+          	responsiveRefreshRate : 200,
+          	navText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"]
+        }).on('changed.owl.carousel', syncPosition);
+      
+        sync2
+          .on('initialized.owl.carousel', function () {
+            sync2.find(".owl-item").eq(0).addClass("current");
+          })
+          .owlCarousel({
+          items : slidesPerPage,
+          dots: false,
+          nav: false,
+            loop: false,
+            center: false,
+          smartSpeed: 200,
+          slideSpeed : 500,
+          slideBy: slidesPerPage, 
+          //alternatively you can slide by 1, this way the active slide will stick to the first item in the second carousel
+          responsiveRefreshRate : 100
+        }).on('changed.owl.carousel', syncPosition2);
+      
+        function syncPosition(el) {
+          //if you set loop to false, you have to restore this next line
+          //var current = el.item.index;
+          
+          //if you disable loop you have to comment this block
+          var count = el.item.count-1;
+          var current = Math.round(el.item.index - (el.item.count/2) - .5);
+          
+          if(current < 0 && 1 < 2) {
+            current = count;
+          }
+          if(current > count) {
+            current = 0;
+          }
+          
+          //end block
+      
+          sync2
+            .find(".owl-item")
+            .removeClass("current")
+            .eq(current)
+            .addClass("current");
+          var onscreen = sync2.find('.owl-item.active').length - 1;
+          var start = sync2.find('.owl-item.active').first().index();
+          var end = sync2.find('.owl-item.active').last().index();
+          
+          if (current > end) {
+            sync2.data('owl.carousel').to(current, 100, true);
+          }
+          if (current < start && 1 < 2) {
+            sync2.data('owl.carousel').to(current - onscreen, 100, true);
+          }
+        }
+        
+        function syncPosition2(el) {
+          if(syncedSecondary) {
+            var number = el.item.index;
+            sync1.data('owl.carousel').to(number, 100, true);
+          }
+        }
+        
+        sync2.on("click", ".owl-item", function(e){
+          e.preventDefault();
+          var number = $(this).index();
+          sync1.data('owl.carousel').to(number, 300, true);
+        });
+      });
+    </script>
+<script src="OwlCarousel2-2.3.4/docs/assets/vendors/highlight.js"></script>
+<script src="OwlCarousel2-2.3.4/docs/assets/js/app.js"></script>
 </body>
 </html>

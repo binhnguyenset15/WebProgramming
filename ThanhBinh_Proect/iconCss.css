@@ -1,0 +1,21 @@
+.icons_2019 {
+    display: inline-block;
+    background: url("https://www.anphatpc.com.vn/template/2019/images/sprite_2019.png?v=2.2") no-repeat;
+    vertical-align: middle;
+}
+.icons_2019.tragop{height:40px;width:45px;background-position:-77px 0px;}
+.icons_2019.tintuc{height:40px;width:45px;background-position:-161px 0px;}
+.icons_2019.xaydungpc{height:40px;width:50px;background-position:-249px 0px;}
+.icons_2019.flashsale{height:40px;width:45px;background-position:-340px 0px;}
+.icons_2019.icon_tuvan{width:30px;height:30px;background-position:-8px -9px;}
+.icons_2019.icon_hangchinhhang{width:30px;height:30px;background-position:-8px -53px;}
+.icons_2019.icon_doitramienphi{width:30px;height:30px;background-position:-4px -103px;}
+.icons_2019.icon_mienphivanchuyen{width:30px;height:30px;background-position:-8px -157px;}
+.icons_2019.icon_inhoadondientu{width:30px;height:30px;background-position:-4px -207px;}
+.icons_2019.icon_tracuubaohanh{width:32px;height:32px;background-position:-2px -255px;}
+.icons_2019.icon-new{width:33px;height:33px;background-position:-82px -296px;position:absolute;z-index:99;left:15px;top:15px;}
+.banner-home{overflow:hidden;margin-bottom:20px;}
+.icons_2019.icon-offer{width:76px;height:18px;background-position:-158px -294px;bottom:0;z-index:99;position:absolute;}
+.icons_2019.icon-p-rate{width:63px;height:13px;}
+.icon-p-rate_0{background-position:-427px -179px;}
+.icons_2019.discount{position:absolute;width:51px;height:51px;background-position:-76px -222px;z-index: 9;text-align:center;line-height:51px;color:#fff;font-size:16px;font-weight:bold;right:15px;top:15px;}
