@@ -6,6 +6,7 @@
 }
 a{
 	text-decoration: none;
+	color: #333;
 }
 ul{
 	list-style-type: none;
@@ -17,6 +18,7 @@ li{
 	z-index: 99999;
 }
 .sticky {
+	min-width: 1200px;
     position: fixed;
     top: 0;
     width: 100%;
@@ -186,4 +188,7 @@ li{
 }
 .sub2{
 	color: black;
+}
+.sub2:hover{
+	color: red;
 }

@@ -1,0 +1,32 @@
+.footer{
+	width: 100%;
+	background-color: white;
+	float: left;
+}
+.row{
+	display: flex;
+}
+.row1 h3{
+	font-size: 12px;
+	font-weight: bold;
+	color: red;
+	line-height: 24px;
+}
+.row1 li{
+	display: list-item;
+	line-height: 24px;
+}
+.row1 a{
+	font-size: 11px;
+}
+.row1 a:hover{
+	color: red;
+}
+.d{
+	width: 25%;
+}
+.row2{
+	background: #f0eded;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}

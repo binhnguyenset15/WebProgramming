@@ -1,0 +1,48 @@
+.Chat{
+    height: 25px;
+    width: 200px;
+    background-color: #9f0000;
+    border: none;
+    border-radius: 10px 10px 0px 0px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 99999;
+}
+.Chat a{
+	color: white;
+	margin-inline-start: 20px;
+	font-size: 11px;
+}
+
+#icon-fixed-left {
+	
+    width: 55px;
+    background: #fff;
+    box-shadow: 1px 2px 6px #cecece;
+    margin-left: 10px;
+    position: fixed;
+    left: 0;
+    top: 150px;
+    z-index: 99999;
+}
+.move{
+	display: block;
+}
+.hiden{
+	display: none;
+}
+#icon-fixed-left a {
+    display: block;
+    text-align: center;
+    border-bottom: solid 1px #f0eded;
+    padding: 5px 0;
+}
+
+#icon-fixed-left i {
+    width: 36px;
+    height: 30px;
+}
+#icon-fixed-left span {
+    display: none;
+}

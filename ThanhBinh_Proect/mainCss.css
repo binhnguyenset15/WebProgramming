@@ -1,9 +1,5 @@
-body {
-    background-color: #f0eded;
-}
-.wrap {
-    min-width: 1200px;
-}
+body {background-color: #f0eded;}
+.wrap {min-width: 1200px;}
 .container {
     width: 1200px;
     margin: auto;
@@ -17,24 +13,18 @@ body {
     margin-top: -28px;
     opacity: 0.6;
 }
-.owl-2019 .owl-nav .owl-prev {
-    left: 0;
-}
-.owl-2019 .owl-nav .owl-next {
-    right: 0;
-}
+.owl-2019 .owl-nav .owl-prev {left: 0;}
+.owl-2019 .owl-nav .owl-next {right: 0;}
 .QCTrai {
-    width: 795px;
+    width: 66.25%;
     float: left;
     height: 365px;
     overflow: hidden;
     position: relative;
 }
-.itemQCT{
-    min-height: 365px;
-}
+.itemQCT{min-height: 365px;}
 .QCPhai {
-    width: 400px;
+    width: 33.33%;
     float: right;
     height: 450px;
     overflow: hidden;
@@ -42,9 +32,7 @@ body {
     right: 0;
     margin-top: 5px;
 }
-.video{
-    width:100%;
-}
+.video{width:100%;}
 .hot_news {
     margin: 0;
     border-bottom: dotted 1px #ccc;
@@ -53,13 +41,13 @@ body {
     padding: 10px 0;
 }
 .hot_news img {
-    width: 80px;
+    width: 20%;
     float: left;
     margin-right: 7px;
     max-height: 54px;
 }
 .pointerQC{
-    width: 795px;
+    width: 66.25%;
     overflow: hidden;
     float: left;
 }
@@ -71,13 +59,11 @@ body {
     position: relative;
 }
 .QCItem{
-    width: 198.75px;
+    width: 25%;
     float: left;
     text-transform: uppercase;
 }
-.owl-item{
-    float: left;
-}
+.owl-item{float: left;}
 ul#sync2 li{
     padding: 0 10px;
     height: 64px;
@@ -205,4 +191,126 @@ ul#sync2 li span{
     display: block;
     height: 14px;
 }
-
+.hotDealFoot a{
+    display: block;
+    float: left;
+    margin-left: 10px;
+    border: solid 2px #222;
+    width: 32%;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    box-sizing: border-box;
+}
+a.current:hover{
+    line-height: 75px !important;
+    background: #ce0707;
+    color: #fff;
+    border-color: #ce0707;
+    border-width: 5px;
+}
+a.current:hover:before {
+    content: '';
+    display: block;
+    position: absolute;
+    border: solid 1px #fff;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    }
+.hot_news_foot{
+    width: 100%;
+    float: left;
+    background-color: white;
+}
+h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+.listnews{
+    display: flex;
+}
+.newsItem{
+    margin: 15px;
+    max-width: 370px;}
+.newsItem img{
+    max-width: 370px;
+}
+.time{
+    float: left;
+    width: 40px;
+    border: solid 1px #ddd;
+    text-align: center;
+}
+.time b{
+    font-size: 24px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+.info{
+    margin-left: 70px;
+}
+a.cat{
+    display: inline-block;
+    background: #db0006;
+    color: #fff;
+    font-weight: bold;
+    line-height: 24px;
+    padding: 0 10px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+a.name:hover{
+    color: red;
+}
+a.name{
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+}
+.nhanThongTin{
+    width: 100%;
+    float: left;
+    height: 100px;
+}
+.getInfo{
+    margin-top: 40px; 
+}
+.text{
+    float: left;
+}
+.text h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.emailForm{
+    width: 30%;
+    height: 42px;
+    float: right;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    box-sizing: border-box;
+    margin-right: 80px;
+}
+.userEmail{
+    width: 80%;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+.sendEmail{
+    height: 40px;
+    width: 60px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+}
