@@ -58,3 +58,18 @@
 #icon-fixed-left a:nth-child(11) i {
     background-position: -560px -368px;
 }
+#icon-fixed-right a:nth-child(1) i {
+    background-position: -169px -63px;
+}
+#icon-fixed-right a:nth-child(2) i {
+    background-position: -169px -99px;
+}
+#icon-fixed-right a:nth-child(3) i {
+    background-position: -169px -135px;
+}
+#icon-fixed-right a:nth-child(4) i {
+    background-position: -169px -170px;
+}
+#icon-fixed-right a:nth-child(5) i {
+    background-position: -169px -206px;
+}

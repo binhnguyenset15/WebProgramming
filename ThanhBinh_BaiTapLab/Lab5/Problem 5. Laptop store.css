@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.warp{
+	width: 100%;
+}
+.container{
+	width: 1200px;
+	margin:auto;
+	border: 1px solid black;
+}
+ul{
+	list-style-type: none;
+}
+.nav ul{
+
+	text-align: center;
+}
+.nav li{
+	display:inline-block;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: blue;
+	padding: 5px;
+}
+img{
+	width: 200px;
+	float: left;
+}
+.left{
+	width: 60%;
+	border: 1px solid;
+	margin: 20px;
+	float: left;
+}
+.col{
+	width: 47%;
+	padding: 10px;
+	float: left;
+}
+.right{
+	font-size: 30px;
+	text-align: center;
+	line-height: 60px;
+	margin-top: 20px;
+}

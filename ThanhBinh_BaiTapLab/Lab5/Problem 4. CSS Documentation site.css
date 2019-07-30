@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+ul{
+	list-style-type: none;
+	line-height: 20px;
+}
+a{
+	text-decoration: none;
+}
+.warp{
+	width: 100%;
+}
+.container{
+	width: 1200px;
+	margin: auto;
+	background-color: #f0eded;
+	border: 1px solid black;
+}
+.left{
+	width: 15%;
+	float: left;
+	padding: 10px;
+}
+.nav{
+	margin-top: 15px;
+}
+.sub1{
+	font-weight: bold;
+	color: red;
+}
+.sub2 a{
+	color: black;
+}
+.mid{
+	width: 66%;
+	float: left;
+	background-color: white;
+	border: 1px solid black;
+	padding-bottom: 40px;
+}
+.head{
+	padding: 10px;
+}
+.mid button{
+	padding: 5px;
+	margin-top: 20px;
+	margin-right: 10px;
+	width: 80px;
+}
+.mid p{
+	font-weight: bold;
+}
+.row1{
+	padding: 10px;	
+}
+.row1 h2{
+	background-color: #595959;
+	color: white;
+	padding-inline-start:10px;
+}
+.text{
+	margin-top: 5px;
+	width: 80%;
+	float: right;
+}
+.text a{
+	margin-top: 10px;
+	color: red;
+}
+
+.right{
+	width: 15%;
+	float: left;
+	padding: 10px;
+	
+}
+.right div{
+	margin-bottom: 5px;
+	background-color: white;
+	text-align: center;
+	border: 1px solid black;
+}
+.right h3{
+	background-color: #595959;
+	color: white;
+	text-align: center;
+}
+.right a{
+	color: red;
+	
+}
+.right input{
+	margin: 10px;
+	width: 60%;
+}
+.right .row2 button{
+	padding: 5px;
+	margin: 10px;
+	width: 60%;
+}
