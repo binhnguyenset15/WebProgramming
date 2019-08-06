@@ -1,14 +1,36 @@
-SinhVien = function(ho,ten){
+Person = function(ho,ten,tuoi,sothich){
 	this.ho = ho;
 	this.ten = ten;
+	this.tuoi= tuoi
+	this.sothich = sothich
+};
+var person=[
+	new Person('ben','le1','18',['ăn','ngủ']),
+	new Person('ben','le2','18',['ăn','ngủ']),
+	new Person('ben','le3','18',['ăn','ngủ']),
+	new Person('ben','le4','18',['ăn','ngủ']),
+	new Person('ben','le5','18',['ăn','ngủ']),
+];
+
+
+function inPerson(){
+	vt = $('input[name=vt]').val() - 1;
+	if( person[vt] != null){
+	document.write('Họ: '+ person[vt].ho + '<br>Tên: ' + person[vt].ten + '<br>Tuổi: '+ person[vt].tuoi+ '<br>Sở thích: ');
+	soThich(person[vt].sothich);
+	}
+	else
+		document.write('ngu nhu con bo');
 }
-var sinhvien=[
-	new SinhVien('ben','le1'),
-	new SinhVien('ben','le2'),
-	new SinhVien('ben','le3'),
-	new SinhVien('ben','le4'),
-	new SinhVien('ben','le5'),
-]
+function soThich(arr){
+	for (let item in arr) {
+		if(item < arr.length-1)
+		document.write(arr[item]+ ', ');
+		else
+		document.write(arr[item]);
+	}
+}
+
 function inDanhSachV2(){
 	for (sv in sinhvien){
 		console.log();
