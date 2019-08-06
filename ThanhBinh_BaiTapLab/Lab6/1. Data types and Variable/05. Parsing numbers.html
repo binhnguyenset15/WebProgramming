@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>05. Parsing numbers</title>
+	<script type="text/javascript" src="05. Parsing numbers.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<style type="text/css">
+		table td, table th {
+	    border: 1px solid #dfe2e5;
+	    padding: 6px 13px;
+	</style>
+</head>
+
+<body onload="chuyenDoi()">
+	<table>
+		<thead>
+			<tr>
+				<th>str</th>
+				<th>parseInt(str)</th>
+				<th>parseFloat(str)</th>
+				<th>Number(str)</th>
+				<th>+str</th>
+				<th>str | 0</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td id='s1'>1234</td>
+				<td id='s11'>?</td>
+				<td id='s12'>?</td>
+				<td id='s13'>?</td>
+				<td id='s14'>?</td>
+				<td id='s15'>?</td>
+			</tr>
+			<tr>
+				<td id='s2'>1238abc</td>
+				<td id='s21'>?</td>
+				<td id='s22'>?</td>
+				<td id='s23'>?</td>
+				<td id='s24'>?</td>
+				<td id='s25'>?</td>
+			</tr>
+			<tr>
+				<td id='s3'>0.15</td>
+				<td id='s31'>?</td>
+				<td id='s32'>?</td>
+				<td id='s33'>?</td>
+				<td id='s34'>?</td>
+				<td id='s35'>?</td>
+			</tr>
+			<tr>
+				<td id='s4'>3.14ivan</td>
+				<td id='s41'>?</td>
+				<td id='s42'>?</td>
+				<td id='s43'>?</td>
+				<td id='s44'>?</td>
+				<td id='s45'>?</td>
+			</tr>
+			<tr>
+				<td id='s5'>Infinity</td>
+				<td id='s51'>?</td>
+				<td id='s52'>?</td>
+				<td id='s53'>?</td>
+				<td id='s54'>?</td>
+				<td id='s55'>?</td>
+			</tr>
+			<tr>
+				<td id='s6'>99999999999999999999</td>
+				<td id='s61'>?</td>
+				<td id='s62'>?</td>
+				<td id='s63'>?</td>
+				<td id='s64'>?</td>
+				<td id='s65'>?</td>
+			</tr>
+		</tbody>
+</table>
+</body>
+</html>
