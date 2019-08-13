@@ -1,0 +1,41 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="Lab7 Js.js"></script>
+    <title>Lab7</title>
+</head>
+<body onload="LoadAjax()">
+    <div class="container">
+        <h1>Danh Sach Sinh Vien</h1>
+        <div class="Group-SV">
+            <div class="row">
+                <div class="col-1">STT</div>
+                <div class="col-4">Ho va Ten</div>
+                <div class="col-4">MSSV</div>
+                <div class="col-3">Chuc nang</div>
+            </div>
+            <div class="DSSV">
+
+            </div>
+        </div>
+        <button class="createSV" onclick="showForm()">Create New SV</button>
+        <div class="formCreate" style="display:none">
+            Ho va Ten: <input type="text" name="HoTen"/><br />
+            MSSV:<input type="text" name="MSSV" /><br />
+            <button onclick="createNewSV()">Submit</button>
+            
+        </div>
+    </div>
+</body>
+</html>
