@@ -98,16 +98,50 @@ ul#sync2 li span{
     height: 150px;
     float: left;
 }
-
-.productTitle{
+.banner {
     float: left;
-    width: 100%;
-    height: 40px;
-    line-height: 40px;
-    color: #fff;
-    padding-right: 10px;
-    border-bottom: solid 2px #ce0707;
 }
+
+.list {
+    width: 73%;
+    margin-left: 15px;
+    height: 150px;
+    float: left;
+    overflow: hidden;
+}
+
+    .list .item {
+        width: 136px;
+        margin-right: 12px;
+        float: left;
+        height: 150px;
+        border: solid 1px #dfdfdf;
+        border-radius: 3px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .list .item .title {
+        float: left;
+        line-height: 18px;
+        height: 36px;
+        display: block;
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+        .list .item a:hover {
+            color: red;
+        }
+
+    .productTitle {
+        float: left;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        color: #fff;
+        padding-right: 10px;
+        border-bottom: solid 2px #ce0707;
+    }
 .h_title{
     float: left;
     color: #fff;
@@ -314,3 +348,15 @@ a.name{
     background-color: white;
     border-radius: 5px;
 }
+.owl-2019 .owl-nav{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    z-index: 99999;
+    margin-top: -28px;
+    opacity: 0.6;
+}
+    .owl-2019 .owl-nav .owl-next {
+        right: 0;
+        position: absolute;
+    }

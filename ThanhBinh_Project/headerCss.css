@@ -192,34 +192,3 @@ li{
 .sub2:hover{
 	color: red;
 }
-.banner{
-	float: left;
-}
-.list{
-	margin-left: 15px;
-	height: 150px;
-	float: left;
-	width: 70%;
-	overflow: hidden;
-}
-.list .item{
-	width: 135.167px;
-    margin-right: 10px;
-    float: left;
-    height: 150px;
-    border: solid 1px #dfdfdf;
-    border-radius: 3px;
-    padding: 10px;
-    box-sizing: border-box;
-}
-.list .item .title {
-    float: left;
-    line-height: 18px;
-    height: 36px;
-    display: block;
-    font-weight: bold;
-    font-size: 13px;
-}
-.list .item a:hover{
-	color: red;
-}
