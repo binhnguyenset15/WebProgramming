@@ -14,6 +14,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script type="text/javascript" src="Lab7 Js.js"></script>
     <title>Lab7</title>
+    <style>
+        .row{
+            margin-bottom: 5px;
+        }
+    </style>
 </head>
 <body onload="LoadAjax()">
     <div class="container">
@@ -21,8 +26,8 @@
         <div class="Group-SV">
             <div class="row">
                 <div class="col-1">STT</div>
-                <div class="col-4">Ho va Ten</div>
-                <div class="col-4">MSSV</div>
+                <div class="col-4">Ho va Ten <button class="sortTen">Sort Ten</button></div>
+                <div class="col-4">MSSV <button class="sortMSSV">Sort MSSV</button></div>
                 <div class="col-3">Chuc nang</div>
             </div>
             <div class="DSSV">
@@ -31,10 +36,13 @@
         </div>
         <button class="createSV" onclick="showForm()">Create New SV</button>
         <div class="formCreate" style="display:none">
-            Ho va Ten: <input type="text" name="HoTen"/><br />
-            MSSV:<input type="text" name="MSSV" /><br />
+            Ho va Ten: <input type="text" name="HoTen" /><br />
+            MSSV:<input type="number" name="MSSV"/><br />
             <button onclick="createNewSV()">Submit</button>
-            
+        </div>
+        <div>
+            <button class="setBG">Change background color</button>
+            <button class="rsBG" style="display:none">Reset background color</button>
         </div>
     </div>
 </body>
