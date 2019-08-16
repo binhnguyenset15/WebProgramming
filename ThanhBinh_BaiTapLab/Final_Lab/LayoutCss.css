@@ -19,5 +19,10 @@ formCreate {
     width: 100%;
 }
 .btnForm{
-    margin-top: 155px; 
+    margin-top: 150px; 
+}
+.GroupSV .row{
+    width: 100%;
+    margin: auto;
+    border-bottom: 1px solid grey;  
 }

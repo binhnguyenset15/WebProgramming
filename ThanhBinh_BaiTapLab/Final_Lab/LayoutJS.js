@@ -21,8 +21,8 @@ function ShowSinhVien(e) {
                 <div class="col-2">${(e[index].MSSV)}</div>
                 <div class="col-2">${(e[index].Lop)}</div>
                 <div class="col-3">
-                    <button id="${(e[index].MSSV)}" class="deleteRow">Delete</button>
-                    <button id="${(e[index].MSSV)}" class="editRow">Edit</button>
+                    <button id="${(e[index].MSSV)}" class="deleteRow btn btn-danger">Delete</button>
+                    <button id="${(e[index].MSSV)}" class="editRow btn btn-info">Edit</button>
                 </div>
             </div>`;
         $(".DSSV").append(str);
@@ -62,15 +62,15 @@ $(function () {
             }
         });
         var str = `
-            <button class="btnSave">Accept</button>
-            <button class="btnCancel"" >Cancel</button>
+            <button class="btnSave btn btn-primary">Accept</button>
+            <button class="btnCancel btn btn-warning" >Cancel</button>
         `;
         var str1 = `
                 <div class="row">
                     <h3>Them Sinh Vien</h3>
                 </div>
                 <div class="row formCreate">
-                    <div class="col-9">
+                    <div class="col-8">
                         Ho Ten: <input type="text" name="HoTen" class="form-control" />
                         MSSV:<input type="number" name="MSSV" class="form-control"/>
                         Lop:<select name="Lop" class="form-control">
@@ -78,12 +78,12 @@ $(function () {
                             <option>Lop 2</option>
                         </select>
                     </div>
-                    <div class="col-3 btnForm">
-                        <button onclick="createNewSV()">Add</button>
+                    <div class="col-4 btnForm">
+                        <button class="btn btn-primary" onclick="createNewSV()">Add</button>
                     </div>
                 </div>`;
         $('.form h3').html('Sua Thong Tin Sinh Vien');
-        $('.form .col-3').html(str);
+        $('.form .btnForm').html(str);
         $('.btnSave').on('click', function () {
             var reHT = $('input[name=HoTen]').val();
             var reMSSV = $('input[name=MSSV]').val();
