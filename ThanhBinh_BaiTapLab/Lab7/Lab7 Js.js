@@ -21,8 +21,18 @@ function LoadAjax() {
 function ShowSinhVien() {
     $(".DSSV").empty();
     for (let index in sinhViens) {
-        $(".DSSV").append('<div class="row" id ="' + (+index + 1) + '"><div class= "col-1" >' + (+index + 1) + '</div ><div class="col-4">' + sinhViens[index].HoTen + '</div><div class="col-4">' + sinhViens[index].MSSV + '</div><div class="col-3"><button id="' + sinhViens[index].MSSV + '" class="deleteRow">Delete</button><button id="' + sinhViens[index].MSSV +'" class="editRow">Edit</button></div></div >');
-    }
+        var str = `
+            <div class="row" id="${(+index + 1)}">
+                <div class="col-1">${(+index + 1)}</div>
+                <div class="col-4">${(sinhViens[index].HoTen)}</div>
+                <div class="col-4">${(sinhViens[index].MSSV)}</div>
+                <div class="col-3">
+                    <button id="${(sinhViens[index].MSSV)}" class="deleteRow">Delete</button>
+                    <button id="${(sinhViens[index].MSSV)}" class="editRow">Edit</button>
+                </div>
+            </div>`;
+        $(".DSSV").append(str);
+            }
 }
 
 
@@ -66,13 +76,21 @@ $(function () {
     $('.DSSV').on('click', '.editRow', function () {
         var MSSV = $(this).attr('id');
         var index = sinhViens.findIndex(x => x.MSSV == MSSV);
-        $('#' + MSSV).parents('.row').html('<div class="col-1" >' + (+index + 1) + '</div ><div class="col-4"><input type="text" name="reHoTen" placeholder="' + sinhViens[index].HoTen + '"/></div><div class="col-4"><input type="number" name="reMSSV" placeholder="' + sinhViens[index].MSSV +'"/></div><div class="col-3"><button class="btnSave">Accept</button><button class="Cancel" onclick="ShowSinhVien()" >Cancel</button></div>');
+        var str = `
+            <div class="col-1" >${(+index + 1)}</div >
+            <div class="col-4"><input type="text" name="reHoTen" placeholder="${(sinhViens[index].HoTen)}"/></div>
+            <div class="col-4"><input type="number" name="reMSSV" placeholder="${(sinhViens[index].MSSV)}"/></div>
+            <div class="col-3">
+                <button class="btnSave">Accept</button>
+                <button class="Cancel" onclick="ShowSinhVien()" >Cancel</button>
+            </div>`;
+        $('#' + MSSV).parents('.row').html(str);
         $('.btnSave').on('click', function () {
-            var reHT = $('input[name=reHoTen]').val();
-            var reMSSV = $('input[name=reMSSV]').val();
-            var reSV = new SinhVien(reHT, reMSSV);
-            sinhViens[index] = reSV;
-            ShowSinhVien();
+        var reHT = $('input[name=reHoTen]').val();
+        var reMSSV = $('input[name=reMSSV]').val();
+        var reSV = new SinhVien(reHT, reMSSV);
+        sinhViens[index] = reSV;
+        ShowSinhVien();
         });
     });
     $('.setBG').on('click', function () {

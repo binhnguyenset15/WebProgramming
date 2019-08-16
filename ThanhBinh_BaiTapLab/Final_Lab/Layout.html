@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>LayoutFinal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="LayoutJS.js"></script>
+    <link rel="stylesheet" href="LayoutCss.css">
+</head>
+<body onload="ShowSinhVien(sinhViens)">
+    <header>
+        <div class="container">
+            <h1>Danh Sach Sinh Vien</h1>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <aside>
+                        <h3>Danh Sach Lop</h3>
+                        <ul>
+                            <li><a href="#" value="Lop 1">Lop 1</a></li>
+                            <li><a href="#" value="Lop 2">Lop 2</a></li>
+                        </ul>
+                    </aside>
+                </div>
+                <div class="col-9 rightbar">
+                    <div class="form">
+                        <div class="row">
+                            <h3>Them Sinh Vien</h3>
+                        </div>
+                        <div class="row formCreate">
+                            <div class="col-9">
+                                Ho Ten: <input type="text" name="HoTen" />
+                                MSSV:<input type="number" name="MSSV" /><br />
+                                Lop:<select name="Lop">
+                                    <option>Lop 1</option>
+                                    <option>Lop 2</option>
+                                </select>
+                            </div>
+                            <div class="col-3">
+                                <button onclick="createNewSV()">Them</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="space">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h3>Danh Sach Sinh Vien</h3>
+                    </div>
+                    <div class="row">
+                        <div class="GroupSV">
+                            <div class="row">
+                                <div class="col-1">STT</div>
+                                <div class="col-4">Ho va Ten</div>
+                                <div class="col-2">MSSV</div>
+                                <div class="col-2">Lop</div>
+                                <div class="col-3">Chuc nang</div>
+                            </div>
+                            <div class="DSSV">
+
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
