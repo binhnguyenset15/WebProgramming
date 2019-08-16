@@ -31,6 +31,7 @@
                         <ul>
                             <li><a href="#" value="Lop 1">Lop 1</a></li>
                             <li><a href="#" value="Lop 2">Lop 2</a></li>
+                            <li><a href="#" value="All">Tat ca cac Lop</a></li>
                         </ul>
                     </aside>
                 </div>
@@ -41,15 +42,15 @@
                         </div>
                         <div class="row formCreate">
                             <div class="col-9">
-                                Ho Ten: <input type="text" name="HoTen" />
-                                MSSV:<input type="number" name="MSSV" /><br />
-                                Lop:<select name="Lop">
+                                Ho Ten: <input type="text" name="HoTen" class="form-control" />
+                                MSSV:<input type="number" name="MSSV" class="form-control"/>
+                                Lop:<select name="Lop" class="form-control">
                                     <option>Lop 1</option>
                                     <option>Lop 2</option>
                                 </select>
                             </div>
-                            <div class="col-3">
-                                <button onclick="createNewSV()">Them</button>
+                            <div class="col-3 btnForm">
+                                <button onclick="createNewSV()">Add</button>
                             </div>
                         </div>
                     </div>

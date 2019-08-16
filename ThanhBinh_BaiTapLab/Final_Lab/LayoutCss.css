@@ -9,16 +9,15 @@
 .rightbar {
     border: 1px solid black;
 }
-.formCreate input {
-    margin-right: 10px;
-}
-.formCreate select {
-    margin-right: 10px;
-    margin-left: 27px;
-}
 .space{
     height: 30px;
 }
 .GroupSV{
     width: 100%;
+}
+formCreate {
+    width: 100%;
+}
+.btnForm{
+    margin-top: 155px; 
 }
