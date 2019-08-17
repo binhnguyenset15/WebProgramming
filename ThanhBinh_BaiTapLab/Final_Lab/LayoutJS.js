@@ -33,12 +33,17 @@ function createNewSV() {
     var hoten = $("input[name=HoTen]").val();
     var MSSV = $("input[name=MSSV]").val();
     var Lop = $("select").val();
-    $("input[name=HoTen]").val('');
-    $("input[name=MSSV]").val('');
-    $("select").val('Lop 1');
-    var NSV = new SinhVien(hoten, MSSV, Lop);
-    sinhViens.unshift(NSV);
-    ShowSinhVien(sinhViens);
+    if (hoten != '' && MSSV != '') {
+        $("input[name=HoTen]").val('');
+        $("input[name=MSSV]").val('');
+        $("select").val('Lop 1');
+        var NSV = new SinhVien(hoten, MSSV, Lop);
+        sinhViens.unshift(NSV);
+        ShowSinhVien(sinhViens);
+    }
+    else {
+        alert('Nhap Thieu Thong Tin!');
+    }
 }
 
 $(function () {
@@ -88,10 +93,15 @@ $(function () {
             var reHT = $('input[name=HoTen]').val();
             var reMSSV = $('input[name=MSSV]').val();
             var reLop = $("select").val();
-            var reSV = new SinhVien(reHT, reMSSV, reLop);
-            sinhViens[index] = reSV;
-            $('.form').html(str1);
-            ShowSinhVien(sinhViens);
+            if (reHT != '') {
+                var reSV = new SinhVien(reHT, reMSSV, reLop);
+                sinhViens[index] = reSV;
+                $('.form').html(str1);
+                ShowSinhVien(sinhViens);
+            }
+            else {
+                alert('Nhap Thieu Thong Tin!');
+            }
         });
         $('.btnCancel').on('click', function () {
             

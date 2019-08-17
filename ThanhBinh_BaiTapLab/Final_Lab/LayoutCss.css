@@ -26,3 +26,9 @@ formCreate {
     margin: auto;
     border-bottom: 1px solid grey;  
 }
+.GroupSV > .row {
+    font-weight: bold;
+}
+.GroupSV .row:nth-child(2n+2) {
+    background-color: #cce6ff;
+}
