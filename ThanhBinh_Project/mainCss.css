@@ -22,6 +22,9 @@ body {background-color: #f0eded;}
     overflow: hidden;
     position: relative;
 }
+.img-fluid{
+    min-width:796px;
+}
 .itemQCT{min-height: 365px;}
 .QCPhai {
     width: 33.33%;
@@ -98,6 +101,7 @@ ul#sync2 li span{
     height: 150px;
     float: left;
 }
+
 .banner {
     float: left;
 }
@@ -111,7 +115,7 @@ ul#sync2 li span{
 }
 
     .list .item {
-        width: 136px;
+        max-width: 136px;
         margin-right: 12px;
         float: left;
         height: 150px;
@@ -129,9 +133,12 @@ ul#sync2 li span{
         font-size: 13px;
     }
 
-        .list .item a:hover {
+        .list .item:hover a{
             color: red;
         }
+    .list .owl-item{
+        max-width : 136px !important;
+    }
 
     .productTitle {
         float: left;
